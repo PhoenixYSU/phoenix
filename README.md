@@ -1,2 +1,2 @@
 # phoenix
-Website for Phoenix Club of YSU
+Phoenix Club Website
