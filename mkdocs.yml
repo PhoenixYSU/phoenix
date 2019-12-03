@@ -1,0 +1,80 @@
+# Project Information
+site_name: 'Phoenix Club of YSU'
+site_description: 'Documentation Website for Phoenix Club of YSU'
+site_author: 'Phoenix Club of YSU'
+# site_url: 'https://bithapa.github.com/blog'
+
+# Configuration
+theme:
+    name: 'material'
+    palette:
+      primary: 'indigo'
+      accent: 'indigo'
+    feature:
+        tabs: false
+    font:
+        text: 'Play'
+        code: 'Source Code Pro'
+    favicon: '/assets/images/favicon.png'
+
+repo_name: 'phoenix'
+repo_url: 'https://github.com/PhoenixYSU/phoenix'
+
+# Copyright
+copyright: 'Built by <a href="http://github.com/bithapa">Bikash Thapa Magar</a> &copy; 2019'
+
+extra:
+    social:
+    - type: 'github'
+      link: 'https://github.com/PhoenixYSU'
+    # - type: 'code'
+      # link: 'https://bikashthapa.netlify.com/'
+    # - type: 'book'
+      # link: 'https://bikashthapa-resume.netlify.com/'
+    # - type: 'linkedin'
+      # link: 'https://www.linkedin.com/in/bikash-thapa-a547a013b/'
+    # - type: 'twitter'
+      # link: 'https://twitter.com/bikashisbikash'
+    # - type: 'facebook'
+      # link: 'https://facebook.com/bikashisbikash'
+    # - type: 'instagram'
+      # link: 'https://instagram.com/bikashisbikash'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+nav:
+    - Home: index.md
+    - Math Sessions: math_sessions.md
+    # - Art Work: art.md
+    # - CS: cs.md
+    # - Math: math.md
+    - Blog: blog.md
+    # - Quotes: quotes.md
+    # - Resources: resources.md
+    # - People: people.md
+    - Resources: resources.md
+    - About: about.md
